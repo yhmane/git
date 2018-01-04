@@ -1,0 +1,27 @@
+알파벳 소문자는 커밋이다
+		   master
+			|
+a 	<- b <- c 
+
+git branch testing 테스팅 브랜치를 새로 만듬
+
+		   master
+			|
+a 	<- b <- c 
+			|
+		  testing 
+		  
+branch는 마스터가 가리키는 c 커밋을 가리킴
+
+git checkout testing 테스팅 브랜치로 이동
+
+testing 브랜치에서 수정작업 후 commit
+
+		   master
+			|
+a 	<- b <- c <- d
+				 |
+			   testing 
+이러한 형태가 됨
+
+만약, 마스터가 새로운 작업을 한다면, c에서 두 갈래로 갈라진 가지 형태로 커밋이 그려짐

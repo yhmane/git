@@ -1,27 +1,27 @@
-¾ËÆÄºª ¼Ò¹®ÀÚ´Â Ä¿¹ÔÀÌ´Ù
-		   master
-			|
+ì•ŒíŒŒë²³ ì†Œë¬¸ìžëŠ” ì»¤ë°‹ì´ë‹¤
+	     master
+		|
 a 	<- b <- c 
 
-git branch testing Å×½ºÆÃ ºê·£Ä¡¸¦ »õ·Î ¸¸µë
+git branch testing í…ŒìŠ¤íŒ… ë¸Œëžœì¹˜ë¥¼ ìƒˆë¡œ ë§Œë“¬
 
-		   master
-			|
+	      master
+		|
 a 	<- b <- c 
-			|
-		  testing 
+		|
+	     testing 
 		  
-branch´Â ¸¶½ºÅÍ°¡ °¡¸®Å°´Â c Ä¿¹ÔÀ» °¡¸®Å´
+branchëŠ” ë§ˆìŠ¤í„°ê°€ ê°€ë¦¬í‚¤ëŠ” c ì»¤ë°‹ì„ ê°€ë¦¬í‚´
 
-git checkout testing Å×½ºÆÃ ºê·£Ä¡·Î ÀÌµ¿
+git checkout testing í…ŒìŠ¤íŒ… ë¸Œëžœì¹˜ë¡œ ì´ë™
 
-testing ºê·£Ä¡¿¡¼­ ¼öÁ¤ÀÛ¾÷ ÈÄ commit
+testing ë¸Œëžœì¹˜ì—ì„œ ìˆ˜ì •ìž‘ì—… í›„ commit
 
-		   master
-			|
+	      master
+		|
 a 	<- b <- c <- d
-				 |
-			   testing 
-ÀÌ·¯ÇÑ ÇüÅÂ°¡ µÊ
+		     |
+		   testing 
+ì´ëŸ¬í•œ í˜•íƒœê°€ ë¨
 
-¸¸¾à, ¸¶½ºÅÍ°¡ »õ·Î¿î ÀÛ¾÷À» ÇÑ´Ù¸é, c¿¡¼­ µÎ °¥·¡·Î °¥¶óÁø °¡Áö ÇüÅÂ·Î Ä¿¹ÔÀÌ ±×·ÁÁü
+ë§Œì•½, ë§ˆìŠ¤í„°ê°€ ìƒˆë¡œìš´ ìž‘ì—…ì„ í•œë‹¤ë©´, cì—ì„œ ë‘ ê°ˆëž˜ë¡œ ê°ˆë¼ì§„ ê°€ì§€ í˜•íƒœë¡œ ì»¤ë°‹ì´ ê·¸ë ¤ì§

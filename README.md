@@ -2,20 +2,20 @@
 Study
 
 
-##git push
+## git push
 
-##git pull
+## git pull
 
-##git checkout
+## git checkout
 
-##git merge
+## git merge
 
-##git status
+## git status
 
-##git commit
+## git commit
 
-##git abort
+## git abort
 
-##git cherry-pick
+## git cherry-pick
 
-##git log
+## git log

@@ -34,10 +34,11 @@ git commit -m "[commit message]" ## You can write your command easily</code></pr
 4. Finally push your commit
 <pre><code>git push</code></pre>
 
-> push local branch to remote branch
+> Some push way
+* push local branch to remote branch
 <pre><code>git push [remote server] [local branch]:[remote branch]</code></pre>
 
-> push local branch to same name remote branch
+* push local branch to same name remote branch
 <pre><code>git push [remoete server] [local branch]</code></pre>
 
 ## git pull

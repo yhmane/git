@@ -58,8 +58,8 @@ This command shows the current branch stage status.
 <pre><code>git status</code></pre>
 
 * The current sources changed, and you don't want to push to server then enter this command. This command stores the current status to the stash stack.
-<pre><code>git stash  ## store the current status
-git stash pop ## This command pop up the last git stash</code></pre>
+<pre><code>git stash      ## store the current status
+git stash pop  ## This command pop up the last git stash</code></pre>
 
 ## git commit
 * git commit

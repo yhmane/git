@@ -2,7 +2,7 @@
 Study
 
 ## git branch
-You can use branch command when you want to see branch list. Below is branch command examples.
+* You can use branch command when you want to see branch list. Below is branch command examples.
 
 <pre><code>git branch                        ## shows local branch list
 git branch -r                     ## shows remote branch list
@@ -10,12 +10,12 @@ git branch -a                     ## shows local and remote branch list
 git branch [new branch]           ## checkout new branch
 </code></pre> 
 
-If you want to delete local branch [example]
+* If you want to delete local branch [example]
 <pre><code>git checkout master
 git branch -d example
 </code></pre> 
 
-And you also want to delete the branch from remote server.
+* And you also want to delete the branch from remote server.
 Then delete local branch and add one line.
 <pre><code>git push origin :example
 </code></pre> 
@@ -42,17 +42,34 @@ git commit -m "[commit message]" ## You can write your command easily</code></pr
 <pre><code>git push [remoete server] [local branch]</code></pre>
 
 ## git pull
+You pull sources from remoete server
+<pre><code>git pull</code></pre>
 
 ## git checkout
+* you can checkout another branch from current branch. If you have same branch names, you only checkout.
+<pre><code>git checkout [branch]</code></pre>
 
 ## git merge
+* merge with no commit
+<pre><code>gir merge [branch]</code><pre>
 
 ## git status
+This command shows the current branch stage status.
+<pre><code>git status</code></pre>
+* The current sources changed, and you don't want to push to server then enter this command. This command stores the current status to the stash stack.
+<pre><code>git stash  ## store the current status
+git stash pop ## This command pop up the last git stash</code></pre>
 
 ## git commit
-
-## git abort
+* git commit
 
 ## git cherry-pick
+* If you want to some commits not merged, and another commit needs merge.
+<pre><code>git cherry-pick [commit-hash]</code></pre>
 
 ## git log
+* This command shows commit log
+<pre><code>git log</code></pre>
+But, this command only shows commit-hash and date. So there is option -p. So you can shows the source code change.
+<pre><code>git log -p
+git log -p [commit-hash]  ## you cah shows from the commit-hash</code></pre>

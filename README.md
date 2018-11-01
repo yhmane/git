@@ -32,13 +32,13 @@ git add .                             ## this command adds all the files which a
 <pre><code>git commit                       ## If you enter this command, then your cgi turns on commit write pages
 git commit -m "[commit message]" ## You can write your command easily</code></pre>
 4. Finally push your commit
-<pre><code>git push<pre><code>
+<pre><code>git push</code></pre>
 
 > push local branch to remote branch
-<pre><code>git push <remote server> <local branch>:<remote branch><pre><code>
+<pre><code>git push [remote server] [local branch]:[remote branch]</code></pre>
 
 > push local branch to same name remote branch
-<pre><code>git push <remoete server> <local branch><pre><code>
+<pre><code>git push [remoete server] [local branch]</code></pre>
 
 ## git pull
 

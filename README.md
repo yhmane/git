@@ -51,11 +51,12 @@ You pull sources from remoete server
 
 ## git merge
 * merge with no commit
-<pre><code>gir merge [branch]</code><pre>
+<pre><code>gir merge [branch]</code></pre>
 
 ## git status
 This command shows the current branch stage status.
 <pre><code>git status</code></pre>
+
 * The current sources changed, and you don't want to push to server then enter this command. This command stores the current status to the stash stack.
 <pre><code>git stash  ## store the current status
 git stash pop ## This command pop up the last git stash</code></pre>
@@ -73,3 +74,8 @@ git stash pop ## This command pop up the last git stash</code></pre>
 But, this command only shows commit-hash and date. So there is option -p. So you can shows the source code change.
 <pre><code>git log -p
 git log -p [commit-hash]  ## you cah shows from the commit-hash</code></pre>
+
+
+
+### Git Reference Guide
+* https://git-scm.com/docs

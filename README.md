@@ -31,8 +31,15 @@ git add .                             ## this command adds all the files which a
 3. Next, write the commit messages
 <pre><code>git commit                       ## If you enter this command, then your cgi turns on commit write pages
 git commit -m "[commit message]" ## You can write your command easily</code></pre>
-4 . Finally push your commit
-<pre><code>git push</code></pre>
+4. Finally push your commit
+<pre><code>git push<pre><code>
+
+> push local branch to remote branch
+<pre><code>git push <remote server> <local branch>:<remote branch><pre><code>
+
+> push local branch to same name remote branch
+<pre><code>git push <remoete server> <local branch><pre><code>
+
 ## git pull
 
 ## git checkout

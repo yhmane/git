@@ -21,7 +21,7 @@ Then delete local branch and add one line.
 </code></pre> 
 
 ## git push
-You can upload your source files. 
+* You can upload your source files. 
 1. Check your local branch which files are unstaged.
 <pre><code>git status</code></pre> 
 2. Then choose files and add.
@@ -42,7 +42,7 @@ git commit -m "[commit message]" ## You can write your command easily</code></pr
 <pre><code>git push [remoete server] [local branch]</code></pre>
 
 ## git pull
-You pull sources from remoete server
+* You pull sources from remoete server
 <pre><code>git pull</code></pre>
 
 ## git checkout
@@ -54,7 +54,7 @@ You pull sources from remoete server
 <pre><code>gir merge [branch]</code></pre>
 
 ## git status
-This command shows the current branch stage status.
+* This command shows the current branch stage status.
 <pre><code>git status</code></pre>
 
 * The current sources changed, and you don't want to push to server then enter this command. This command stores the current status to the stash stack.
@@ -71,7 +71,7 @@ git stash pop  ## This command pop up the last git stash</code></pre>
 ## git log
 * This command shows commit log
 <pre><code>git log</code></pre>
-But, this command only shows commit-hash and date. So there is option -p. So you can shows the source code change.
+* But, this command only shows commit-hash and date. So there is option -p. So you can shows the source code change.
 <pre><code>git log -p
 git log -p [commit-hash]  ## you cah shows from the commit-hash</code></pre>
 

@@ -58,8 +58,10 @@ git commit -m "[commit message]" ## You can write your command easily</code></pr
 <pre><code>git status</code></pre>
 
 * The current sources changed, and you don't want to push to server then enter this command. This command stores the current status to the stash stack.
-<pre><code>git stash      ## store the current status
-git stash pop  ## This command pop up the last git stash</code></pre>
+<pre><code>git stash       ## store the current status
+git stash list  ## Show all stash list
+git stash apply ## This command applies the last git stash and the last git stash remains on stash list
+git stash pop   ## This command pop up the last git stash</code></pre>
 
 ## git commit
 * git commit

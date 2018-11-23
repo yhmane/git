@@ -75,7 +75,8 @@ git stash pop   ## This command pop up the last git stash</code></pre>
 <pre><code>git log</code></pre>
 * But, this command only shows commit-hash and date. So there is option -p. So you can shows the source code change.
 <pre><code>git log -p
-git log -p [commit-hash]  ## you cah shows from the commit-hash</code></pre>
+git log -p [commit-hash]  ## you cah shows from the commit-hash
+git log --since="2018-11-01" --author="yhmane" ## shows the log since the day that commit user == author</code></pre>
 
 
 

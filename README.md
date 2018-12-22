@@ -78,6 +78,29 @@ git stash pop   ## This command pop up the last git stash</code></pre>
 git log -p [commit-hash]  ## you cah shows from the commit-hash
 git log --since="2018-11-01" --author="yhmane" ## shows the log since the day that commit user == author</code></pre>
 
+## git tag
+* This command shows release version
+<pre><code>git tag ## shows the tagging version ex) v1.0 v1.1 ...
+git tag -l v1.1.* ## find and show the version like v1.1.1 v1.1.2 ....
+</code></pre>
+
+* Add tag. There are two ways adding tag.
+<pre><code>git tag v1.0 ## First way is Lightweight Tag. It only shows the version.
+git tag -a v1.0 -m"Release version 1.0" ## Second way is Annotated Tag. It shows person, email, date, and messages
+</code></pre>
+
+* Push tag to remote repository
+<pre><code>git push origin v1.0 ## only push v1.0
+git push origin --tags ## if you want to push all tags, then use this command.
+</code></pre>
+
+* Delete tag
+<pre><code>git tag -d v1.0 ## delete tag local branch.
+git push origin :v1.0 ## delete tag from remote repository.
+</code></pre>
+
+
+
 
 
 ### Git Reference Guide

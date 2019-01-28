@@ -100,6 +100,13 @@ git push origin :v1.0 ## delete tag from remote repository.
 </code></pre>
 
 
+## git clean
+* This command removes untracked files from the working tree
+<pre><code>git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>…​...
+git clean -f ## removes untracked files
+git clean -fd ## removes untracked directories and files
+</code></pre>
+
 
 
 

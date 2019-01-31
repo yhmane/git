@@ -111,4 +111,4 @@ git clean -fd ## removes untracked directories and files
 
 
 ### Git Reference Guide
-<a href="https://git-scm.com/docs" target="_blank">https://git-scm.com/docs</a>
+* https://git-scm.com/docs

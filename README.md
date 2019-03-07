@@ -110,14 +110,13 @@ git clean -fd ## removes untracked directories and files
 
 ## git blame
 * This command shows what revision and author last modified each line of a file
+* If you use this command with git diff command, you can get difference or errors more effectively
 <pre><code>git blame [-c] [-b] [-l] [--root] [-t] [-f] [-n] [-s] [-e] [-p] [-w] [--incremental]
 	    [-L <range>] [-S <revs-file>] [-M] [-C] [-C] [-C] [--since=<date>]
 	    [--progress] [--abbrev=<n>] [<rev> | --contents <file> | --reverse <rev>..<rev>]
 	    [--] <file>
 git blame [file] ## shows last commit msg&author of file from start to end
 git blame -L 5,9 [file] ## shows last commit msg&author of file line 5~9
-if you use this command with git diff command,
-you can get difference or errors more effectively
 </code></pre>
 
 

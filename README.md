@@ -61,7 +61,12 @@ git commit -m "[commit message]" ## You can write your command easily</code></pr
 <pre><code>git stash       ## store the current status
 git stash list  ## Show all stash list
 git stash apply ## This command applies the last git stash and the last git stash remains on stash list
-git stash pop   ## This command pop up the last git stash</code></pre>
+git stash apply stash@{number} ## This command applies stash@{number}. Number is stash index from 0~
+git stash pop   ## This command pop up the last git stash
+git stash drop  ## This command drops stash@{0}
+git stash drop stash@{number} ## This command drop stash@{number}. Number is stash index from 0~
+git stash clean ## This command drops all stash stack.          
+</code></pre>
 
 ## git commit
 * git commit

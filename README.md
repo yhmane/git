@@ -65,7 +65,7 @@ git stash apply stash@{number} ## This command applies stash@{number}. Number is
 git stash pop   ## This command pop up the last git stash
 git stash drop  ## This command drops stash@{0}
 git stash drop stash@{number} ## This command drop stash@{number}. Number is stash index from 0~
-git stash clean ## This command drops all stash stack.          
+git stash clear ## This command drops all stash stack.          
 </code></pre>
 
 ## git commit

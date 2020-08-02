@@ -1,6 +1,14 @@
 # git
 Study
 
+## global setting
+* setting user name, email
+
+<pre><code>git config --list 				## show global list
+git config --global user.name "Hwang Yunho"		## set user name
+git config --global user.email "hwang9yh@gmail.com"	## set user email
+</code></pre>
+
 ## git branch
 * You can use branch command when you want to see branch list. Below is branch command examples.
 
